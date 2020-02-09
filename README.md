@@ -14,9 +14,8 @@ Its main tasks are:
     2.  Texting with the users via Telegram. It should:
         a.  Send the newsletter every week
         b.  Handle the requests from users
-        c.  Make short list out of each category with name, price and discount
-        d.  Make long list out of each category with name, price, photo and discount
-        e.  Have the buit-in keyboard with categories and options
+        c.  Make list out of each category with name with integrated link, price and discount
+        d.  Have the buit-in keyboard with categories
     
 You need to know that the Parser will handle the 1st task as a separate program
 and it will be called only from "server.py". The Telegram bot should be a separate program too.
